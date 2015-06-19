@@ -7,9 +7,9 @@
     <artifactId>sample-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>monstanto.ff</groupId>
+
   <artifactId>file</artifactId>
-   <version>0.1.0-${build.number}</version>
+
   <name>file</name>
   <url>http://maven.apache.org</url>
   <properties>
@@ -23,4 +23,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <build>
+    <finalName>file-${version}-B.${build.number}</finalName>
+  </build>
+  
+  
 </project>
+

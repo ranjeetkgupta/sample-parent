@@ -7,10 +7,8 @@
     <artifactId>sample-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>monstanto.ff</groupId>
-  <artifactId>web</artifactId>
-   <version>0.1.0-${build.number}</version>
-  <packaging>war</packaging>
+    <artifactId>web</artifactId>
+   <packaging>war</packaging>
   <name>web Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -20,8 +18,23 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>monstanto.ff</groupId>
+    	<artifactId>utils</artifactId>
+    	<version>${version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>monstanto.ff</groupId>
+    	<artifactId>data</artifactId>
+    	<version>${version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>monstanto.ff</groupId>
+    	<artifactId>file</artifactId>
+    	<version>${version}</version>
+    </dependency>
   </dependencies>
   <build>
-    <finalName>web</finalName>
+    <finalName>web-${version}-B.${build.number}</finalName>
   </build>
 </project>
