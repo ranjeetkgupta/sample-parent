@@ -9,7 +9,7 @@
   </parent>
   <groupId>monstanto.ff</groupId>
   <artifactId>web</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+   <version>0.1.0-${build.number}</version>
   <packaging>war</packaging>
   <name>web Maven Webapp</name>
   <url>http://maven.apache.org</url>

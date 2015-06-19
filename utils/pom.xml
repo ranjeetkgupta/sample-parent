@@ -9,7 +9,7 @@
   </parent>
   <groupId>monstanto.ff</groupId>
   <artifactId>utils</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.0-${build.number}</version>
   <name>utils</name>
   <url>http://maven.apache.org</url>
   <properties>

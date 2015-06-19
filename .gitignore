@@ -6,3 +6,12 @@ target/*
 *.iml
 /target
 /target
+data/target/*
+file/target/*
+utils/target/*
+web/target/
+data/target/
+file/target/
+utils/target/
+web/target/
+*/target/*
