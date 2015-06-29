@@ -90,7 +90,9 @@
 					<dependency>
 						<groupId>org.jacoco</groupId>
 						<artifactId>org.jacoco.ant</artifactId>
-						<version>0.7.5.201505241946</version>
+						<!-- <version>0.7.5.201505241946</version> -->
+						<version>0.7.2.201409121644</version>
+						
 					</dependency>
 				</dependencies>
 			</plugin>
