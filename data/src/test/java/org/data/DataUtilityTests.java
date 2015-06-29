@@ -32,13 +32,21 @@ public class DataUtilityTests extends TestCase {
 	
 	public void test4()
 	{
-		DataUtility.sayC();		
+		DataUtility.sayD();		
 		assertTrue(true);
 		
 	}
 	
 	
 	public void test5()
+	{
+		DataUtility.sayE();		
+		assertTrue(true);
+		
+	}
+	
+	
+	public void test6()
 	{
 		
 		assertTrue(true);
