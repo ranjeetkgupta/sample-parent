@@ -1,4 +1,4 @@
-package org.data;
+package org.coverage;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -25,13 +25,7 @@ public class AppTest
      */
     public static Test suite()
     {
-    	TestSuite ts = new TestSuite();
-    	
-    	ts.addTestSuite(AppTest.class);
-    	ts.addTestSuite(DataUtilityTests.class);
-    	
-        return ts ;
-        
+        return new TestSuite( AppTest.class );
     }
 
     /**
