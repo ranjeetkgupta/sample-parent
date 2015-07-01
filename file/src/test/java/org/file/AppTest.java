@@ -27,7 +27,7 @@ public class AppTest
     {
     	TestSuite ts =  new TestSuite();
     	ts.addTestSuite(AppTest.class);
-    	//ts.addTestSuite(FileUtilityTests.class);
+    	ts.addTestSuite(FileUtilityTests.class);
     	return ts;
     }
 
